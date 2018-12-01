@@ -10,7 +10,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node App.js"
   },
   "author": "",
