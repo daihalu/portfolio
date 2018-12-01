@@ -10,7 +10,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"  },
+    "postinstall": "npm run build",
+    "start": "node App.js"
+  },
   "author": "",
   "license": "ISC"
 }
